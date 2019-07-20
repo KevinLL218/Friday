@@ -10,7 +10,7 @@ Page({
   },
   gotoPageLogin:function(){
     wx.navigateTo({
-      url: '/pages/activity/activity',
+      url: '/pages/login/login',
     })
   },
   /**
