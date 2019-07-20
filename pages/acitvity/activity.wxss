@@ -1,0 +1,9 @@
+page{
+  display: flex;
+  background-color: #FFFAF0;
+}
+.container{
+  text-align: center;
+  height: 50%;
+  width: 50%;
+}
