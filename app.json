@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/activity/activity"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F5FFFA", 
+    "navigationBarTitleText": "计算机系友会",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/activity/activity",
+        "text": "活动",
+        "iconPath": "pages/activity/icon/activity.png",
+        "selectedIconPath": "pages/activity/icon/activity-selected.png"
+      },{
+      "pagePath": "pages/index/index",
+      "text": "个人中心",
+      "iconPath": "pages/index/icon/person.png",
+      "selectedIconPath": "pages/index/icon/person-selected.png"
+    }],
+    "color": "#000000",
+    "selectedColor": "#0000FF",
+    "backgroundColor": "#F5FFFA"
+  }
+}
