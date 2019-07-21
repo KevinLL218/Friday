@@ -1,17 +1,16 @@
 // pages/tabTwo/tabTwo.js
 Page({
 
-  /**
-   * 页面的初始数据
-   */
+  /*** 页面的初始数据 */
   data: {
-    userImageUrl:'icon/user-unlogin.png',
+    userInfo:{},
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   gotoPageLogin:function(){
     wx.navigateTo({
       url: '/pages/login/login',
-    })
+    }),
+    console.log("Go to Page Login")
   },
   /**
    * 生命周期函数--监听页面加载
