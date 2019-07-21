@@ -1,9 +1,9 @@
 <view class="container">
   <image class="backgroundImage" src='icon/ouc.jpg' mode='aspectFill'></image>
   <view class='UserPart'>
-    <button class="userImage" style="background-image:url({{userImageUrl}})"></button>
+    <open-data class="userImage" type="userAvatarUrl"></open-data>
     <view>
-      <button class="Login">点击登陆</button>
+      <button class="Login">点击注册</button>
     </view>
   </view>
 </view>
